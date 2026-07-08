@@ -1,0 +1,15 @@
+/*
+  AD-14 - Refactorización del Blog
+  Archivo de estilos personalizados.
+
+  Importante:
+  - Bootstrap ya resuelve gran parte del diseño.
+  - Usen este archivo solo para ajustes propios del proyecto.
+  - Mantengan una paleta de máximo 5 colores.
+*/
+
+html {
+  height: 100%;
+  width: 100%;
+}
+

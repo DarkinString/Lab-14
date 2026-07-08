@@ -1,4 +1,5 @@
-/*
-  AD-14 - JavaScript para la página de contacto.
-  Objetivo: mostrar una alerta Bootstrap cuando el usuario presione el botón Enviar.
-*/
+fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footerAnime').innerHTML = data;
+            });

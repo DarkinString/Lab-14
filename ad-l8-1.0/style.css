@@ -8,8 +8,23 @@
   - Mantengan una paleta de máximo 5 colores.
 */
 
+:root{
+  --Mauve-Shadow: #673C4F;
+  --Dusty-Lavender: #7F557D;
+  --Vintage-Lavender: #726E97;
+  --Steel-Blue: #7698B3;
+  --Sky-Reflection: #83B5D1;
+}
+
 html {
   height: 100%;
   width: 100%;
 }
 
+#navbar-anime{
+  background-color: var(--Mauve-Shadow) !important;
+}
+
+body{
+  background-color: var(--Steel-Blue) !important;
+}
